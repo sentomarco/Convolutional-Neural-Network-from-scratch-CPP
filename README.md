@@ -1,2 +1,2 @@
-# Convolutional-Neural-Network-from-scratch-CPP-
+# Convolutional Neural Network from scratch [CPP]
 A DIY C++ CNN framework
