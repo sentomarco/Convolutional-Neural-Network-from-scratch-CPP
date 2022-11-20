@@ -1,6 +1,6 @@
 # Convolutional Neural Network from scratch [CPP]
 
-### See also: [Convolutional Neural Network from scratch [CPP]](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-PY)
+### See also: [Convolutional Neural Network from scratch [PY]](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-PY)
  
 **Author: Marco Sento**
 
