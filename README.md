@@ -64,7 +64,6 @@ Finally, just call up the functions for training and testing and print out the r
 #### Dataset:
 The image recognition task on the MNIST dataset is carried out using the above architecture.  
 The dataset is composed of small images arranged in two sets, consisting of 60000 training pictures and 10000 for the test.  
-The training dataset is then subdivided into 50000 samples for training and 10000 for validation.  
 
 #### Network:
 In the conv layers are used small filters, 3x3, using a stride of 2 in order to perform a downsampling of the spatial dimensions of the input.
@@ -85,8 +84,6 @@ It is then predictable that introducing this term in the final loss function wou
 #### Parameter update:
 The gradient from the backpropagation is used for the parameter update. Even though a minibatch gradient descent would be more computational efficient, has been implemented the stochastic GD, evaluating the gradient after each sample.  
 Since it is usually helpful to anneal the learning rate over time, it has been applied an exponential decay.  
--- Two different possibilities have been defined for the parameter update: vanilla SGD and Adam.  
--- Applying the Adam per-parameter optimizer to the FC layers leads to a slight improvement of the performances as shown below.  
 
 #### Babysitting the learning process:
 In order to verify the proper functioning of the network it is possible to perform a sanity check, before starting the training process, through the special function of the CNN module.  
@@ -104,7 +101,7 @@ Below can be seen an example produced by the instantiated network.
 
 After the training it is possible to analyze the results obtained.  
 The loss function is quite variable as expected in the case of unit batch sizes but still a sufficiently low value has been reached.  
-The validation accuracy is equal to ###% while the test accuracy is ###%.  
+The overall test accuracy reached is ###%.  
 Below is also reported a graph obtained analyzing the collected data with a python script. Accuracy shows no signs of overfitting. 
 
 ![immagine](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-PY/blob/main/Screenshots/SDG%20results.png)
