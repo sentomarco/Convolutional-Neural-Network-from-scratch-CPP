@@ -65,10 +65,11 @@ At the moment, only the MNIST dataset has been implemented.
 
 Finally, just call up the functions for training and testing and print out the results.  
 
-About tensors:   
+#### About tensors:   
 All the multidimentionals objects are Volumes: images, datasets and filters conceptually are all tensors and are manipulated as such.  
 In practice the values are stored as vectors but the conversion to tensors is managed by indexing as follows:  
 For a generic point p = [I,J,K] in a volume v = [H,W,D] the corresponding index in the vector is i = I * J*H + K*W  
+
 ![image](https://user-images.githubusercontent.com/70527145/206725014-878118f3-97ec-425d-81d7-f7db4d8bb60b.png)
 
 <h2> An example: MNIST classification </h2>
