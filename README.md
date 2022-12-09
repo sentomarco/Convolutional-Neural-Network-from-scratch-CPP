@@ -22,13 +22,19 @@ The interface is similar to the one of other popular software such as PyTorch an
 
 <h2> Program structure </h2>
 
-The program is composed by 5 modules:
+The program is composed by 6 modules:
 
 ##### MLP:
 Defines the basic block of the Multi Layer Perceptron and is in charge of generate the fully connected 	layers. 
 The activation function implemented is the (old fashioned) sigmoid.  
 The parameter update is performed using SGD.  
  
+##### Volumes: 
+It allows to create tensors for store and manipulating images.
+It is a key element for the operation of the various modules, making image management very simple and fast.
+Images are treated as vectors but conceptually they are transposed into a n-dimensional volume and accessed as such, not unlike numpy.
+The number of dimensions is arbitrary.
+
 ##### Filters: 
 Defines the convolutional layers such as filters and pooling layers.  
 The pooling layer perform a downsample of the input volume using a average pooling or a max pooling.  
@@ -58,6 +64,12 @@ Then the desired dataset it’s loaded by calling the corresponding class from t
 At the moment, only the MNIST dataset has been implemented.  
 
 Finally, just call up the functions for training and testing and print out the results.  
+
+About tensors: 
+All the multidimentionals objects are Volumes: images, datasets and filters conceptually are all tensors and are manipulated as such.
+In practice the values are stored as vectors but the conversion to tensors is managed by indexing as follows:
+![image](https://user-images.githubusercontent.com/70527145/206724210-6e6685b6-6e5d-47b4-8dc1-7db8dfb380dc.png)
+
 
 <h2> An example: MNIST classification </h2>
 
