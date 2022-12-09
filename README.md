@@ -120,7 +120,10 @@ The overall test accuracy reached is ###%.
 It is interesting to note that training the same neural network implemented in python takes 400% more time than the network implemented in C++.
 In 10 min. you train a network that in python required 50 min.
 
-Below is also reported a graph obtained analyzing the collected data with a python script. Accuracy shows no signs of overfitting. 
+Below is also reported a graph obtained analyzing the collected data with a python script.  
+The gap between the training and test accuracy indicates a certain amount of overfitting.  
+There are several ways of controlling the capacity of Neural Networks to prevent overfitting such as inplemeting the L2 regularization or using dropout.  
+Taking advantage of pooling layers would also be effective against overfitting.  
 
 ![immagine](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-CPP/blob/main/Screenshots/SDG%20results.png)
 
