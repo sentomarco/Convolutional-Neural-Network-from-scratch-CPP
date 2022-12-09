@@ -7,7 +7,7 @@
 This project is a C++ framework that gives the possibility to generate istances of different layers typologies, in order to set-up your own neural network.  
 The interface is similar to the one of other popular software such as PyTorch and Tensorflow, but this is not intended as an alternative to them rather as a personal challenge to acquire a deeper knowledge about the structure and working principles of Convolutional Neural Networks.
 
-![immagine](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-PY/blob/main/Screenshots/structure.png)
+![immagine](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-CPP/blob/main/Screenshots/structure.png)
 
 <h2>  Overview: </h2>
 
@@ -70,7 +70,7 @@ All the multidimentionals objects are Volumes: images, datasets and filters conc
 In practice the values are stored as vectors but the conversion to tensors is managed by indexing as follows:  
 For a generic point p = [I,J,K] in a volume v = [H,W,D] the corresponding index in the vector is i = I + J*H + K*W  
 
-![image](https://user-images.githubusercontent.com/70527145/206725014-878118f3-97ec-425d-81d7-f7db4d8bb60b.png)
+![image](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-CPP/blob/main/Screenshots/vector-tensor.png)
 
 <h2> An example: MNIST classification </h2>
 
@@ -103,7 +103,7 @@ Since it is usually helpful to anneal the learning rate over time, it has been a
 In order to verify the proper functioning of the network it is possible to perform a sanity check, before starting the training process, through the special function of the CNN module.  
 In this way the net is trained on a subset of about 20 / 50 samples for many epoch. If everything works as it should then the Loss go to zero. 
 
-![immagine](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-PY/blob/main/Screenshots/sanity%20check.png)
+![immagine](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-CPP/blob/main/Screenshots/check.png)
   
 Another good debugging tool is to look at the feature maps produced by the different filters.  
 These plots are obtained by means of a python script that extrapolates the feature maps produced by the network. 
