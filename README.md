@@ -97,7 +97,7 @@ It is then predictable that introducing this term in the final loss function wou
 #### Parameter update:
 The gradient from the backpropagation is used for the parameter update. Even though a minibatch gradient descent would be more computational efficient, has been implemented the stochastic GD, evaluating the gradient after each sample.  
 Since it is usually helpful to anneal the learning rate over time, it has been applied an exponential decay.  
- Two different possibilities have been defined for the parameter update: vanilla SGD and Adam.  
+Two different possibilities have been defined for the parameter update: vanilla SGD and Adam.  
 
 #### Babysitting the learning process:
 In order to verify the proper functioning of the network it is possible to perform a sanity check, before starting the training process, through the special function of the CNN module.  
@@ -106,7 +106,7 @@ In this way the net is trained on a subset of about 20 / 50 samples for many epo
 ![immagine](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-CPP/blob/main/Screenshots/check.png)
   
 Another good debugging tool is to look at the feature maps produced by the different filters.  
-These plots are obtained by means of a python script that extrapolates the feature maps produced by the network. 
+These plots are obtained by means of a python script that extrapolates the feature maps produced by the network.  
 Below can be seen an example produced by the instantiated network.  
 
 ![immagine](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-CPP/blob/main/Screenshots/preview.png)
