@@ -30,10 +30,10 @@ The activation function implemented is the (old fashioned) sigmoid.
 The parameter update is performed using SGD or Adam.  
 
 ##### Volumes: 
-It allows to create tensors for store and manipulating images.
-It is a key element for the operation of the various modules, making image management very simple and fast.
-Images are treated as vectors but conceptually they are transposed into a n-dimensional volume and accessed as such, not unlike numpy.
-The number of dimensions is arbitrary.
+It allows to create tensors for store and manipulating images.  
+It is a key element for the operation of the various modules, making image management very simple and fast.  
+Images are treated as vectors but conceptually they are transposed into a n-dimensional volume and accessed as such, not unlike numpy.  
+The number of dimensions is arbitrary.  
 
 ##### Filters: 
 Defines the convolutional layers such as filters and pooling layers.  
