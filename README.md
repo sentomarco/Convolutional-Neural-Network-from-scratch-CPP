@@ -125,6 +125,7 @@ The gap between the training and test accuracy indicates a certain amount of ove
 There are several ways of prevent overfitting such as inplemeting the L2 regularization or using dropout.  
 Taking advantage of pooling layers would also be effective against overfitting.  
 
+![immagine](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-CPP/blob/main/Screenshots/SDG%20results.png)
 
 `FIG1: loss and accuracy for SGD.`
 
