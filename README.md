@@ -109,7 +109,7 @@ Another good debugging tool is to look at the feature maps produced by the diffe
 These plots are obtained by means of a python script that extrapolates the feature maps produced by the network. 
 Below can be seen an example produced by the instantiated network.  
 
-![immagine](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-PY/blob/main/Screenshots/feature_maps.png)
+![immagine](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-CPP/blob/main/Screenshots/preview.png)
   
 <h2> Results </h2>
 
