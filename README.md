@@ -122,7 +122,7 @@ In 10 min. you train a network that in python required 50 min.
 
 Below is also reported a graph obtained analyzing the collected data with a python script. Accuracy shows no signs of overfitting. 
 
-![immagine](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-PY/blob/main/Screenshots/SDG%20results.png)
+![immagine](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-CPP/blob/main/Screenshots/SDG%20results.png)
 
 `FIG1: loss and accuracy for SGD.`
 
