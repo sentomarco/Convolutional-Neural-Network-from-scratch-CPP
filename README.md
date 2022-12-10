@@ -4,7 +4,7 @@
  
 **Author: Marco Sento**
 
-This project is a C++ framework that gives the possibility to generate istances of different layers typologies, in order to set-up your own neural network. 
+This project is a C++ framework that gives the possibility to generate istances of different layers typologies, in order to set-up your own neural network.   
 The interface is similar to the one of other popular software such as PyTorch and Tensorflow but this is just a personal challenge to acquire a deeper knowledge about the structure and working principles of Convolutional Neural Networks.
 
 ![immagine](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-CPP/blob/main/Screenshots/structure.png)
