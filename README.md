@@ -1,3 +1,4 @@
+// Adding this line just for testing GitHub contribution mechanism
 # Convolutional Neural Network from scratch [CPP]
 
 ### See also: [Convolutional Neural Network from scratch [PY]](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-PY)
